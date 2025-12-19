@@ -31,7 +31,12 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+*   [ ] **Technical Accuracy**: All claims are traceable to authoritative sources.
+*   [ ] **Spec-Driven Development**: Development is reproducible and driven by specifications.
+*   [ ] **Clarity for Practitioners**: The content is clear for AI and Robotics practitioners.
+*   [ ] **End-to-End Applicability**: The project demonstrates a full Physical AI pipeline.
+*   [ ] **Grounded RAG Chatbot**: The chatbot provides answers grounded only in the book content.
+*   [ ] **Open-Source Deployment**: The project is open-source and deployed on GitHub Pages.
 
 ## Project Structure
 

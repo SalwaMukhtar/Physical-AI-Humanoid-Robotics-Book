@@ -1,55 +1,65 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+---
+Sync Impact Report
+---
+Version change: 0.0.0 → 1.0.0
+Modified principles:
+- PRINCIPLE_1_NAME: "Technical Accuracy"
+- PRINCIPLE_2_NAME: "Spec-Driven Development"
+- PRINCIPLE_3_NAME: "Clarity for Practitioners"
+- PRINCIPLE_4_NAME: "End-to-End Applicability"
+Added sections:
+- PRINCIPLE_5_NAME: "Grounded RAG Chatbot"
+- PRINCIPLE_6_NAME: "Open-Source Deployment"
+- Key Standards
+- Content Scope
+Removed sections: None
+Templates requiring updates:
+- ✅ .specify/templates/plan-template.md
+- ✅ .specify/templates/spec-template.md
+- ✅ .specify/templates/tasks-template.md
+Follow-up TODOs: None
+-->
+# Physical AI & Humanoid Robotics Book with Embedded RAG Chatbot Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Technical Accuracy
+All claims must be traceable to authoritative sources, such as official documentation, peer-reviewed papers, and reputable open-source repositories. Citations will follow APA style and be embedded in Markdown. No hallucinated content is permitted.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Spec-Driven Development
+Development will be reproducible and driven by specifications. This ensures clarity and consistency throughout the project. All specs must be implemented and reproducible.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Clarity for Practitioners
+The content will be written with clarity for AI and Robotics practitioners in mind. There should be a clear separation of theory and implementation.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. End-to-End Applicability
+The project aims for end-to-end real-world applicability, demonstrating a full Physical AI pipeline from voice to action.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Grounded RAG Chatbot
+The embedded RAG chatbot must provide answers grounded only in the indexed book content. Zero hallucinations are allowed. Chatbot responses must be fully grounded.
 
-### [PRINCIPLE_6_NAME]
+### VI. Open-Source Deployment
+The project will be open-source and deployed on GitHub Pages.
 
+## Key Standards
+- All claims traceable to authoritative sources.
+- Sources: official docs, peer-reviewed papers, open-source repos.
+- Citations: APA-style / Markdown.
+- Code: runnable, documented, reproducible.
+- No hallucinated content.
 
-[PRINCIPLE__DESCRIPTION]
-
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
-
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+## Content Scope
+- ROS 2 (nodes, services, URDF, rclpy)
+- Digital twins (Gazebo, Unity, sensors)
+- NVIDIA Isaac (Sim, ROS, VSLAM, Nav2)
+- Vision-Language-Action (Whisper, LLM planning)
+- Capstone: voice-controlled autonomous humanoid
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
+- The book must build and deploy successfully.
+- All specifications must be implemented and reproducible.
+- Chatbot responses must be fully grounded with zero hallucinations.
+- The project must demonstrate a full Physical AI pipeline (voice → action).
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
-
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-17 | **Last Amended**: 2025-12-17

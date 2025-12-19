@@ -11,32 +11,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: ' Secure AI Assistant Bot',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        A friendly AI robot symbolizing intelligent assistance with built-in security and trust. It represents safe, reliable interaction between humans and AI systems.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: ' Human–AI Collaboration',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+       A humanoid robot and a human face each other, symbolizing collaboration, trust, and the convergence of artificial intelligence with human intelligence.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Human–Machine Intelligence',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        A split-face icon representing the fusion of human creativity and machine intelligence, highlighting the balance between human intuition and AI-driven logic.
       </>
     ),
   },
